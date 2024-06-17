@@ -1,0 +1,45 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 4;
+    padding-top: 20;
+    background-color: pink;
+}
+
+header, footer {
+    background-color: #333;
+    color: darkblue;
+    text-align: center;
+    padding-inline-start: 5cm;
+}
+
+main {
+    padding: auto;
+    text-align: center;
+}
+
+button {
+    padding: calc(10px 20px);
+    font-size: medium;
+    cursor: pointer;
+}
+
+blockquote {
+    margin: 1em auto;
+    padding: 1em;
+    border-left: 4px solid #333;
+    background-color: #fff;
+    max-width: 600px;
+    text-align: left;
+}
+
+blockquote cite {
+    display: block;
+    margin-top: 1em;
+    font-style: italic;
+    color: #555;
+}
+image {
+    max-width: max-content;
+    height: auto;
+    margin: 1em 0;
+}
